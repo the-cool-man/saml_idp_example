@@ -25,7 +25,7 @@ class IdpProvider {
    * @return string
    */
   public function getIdPId(){
-    return "https://app.mogl.online";
+    return "https://i.am.online";
   }
 
   /**
@@ -53,7 +53,7 @@ class IdpProvider {
    */
   public function getUserEmail(){
 
-    return "tohid@outliant.com";
+    return "tohid@email.id";
   }
 
 }

@@ -102,11 +102,11 @@ class IdpTools{
                     // Setting the user email address.
                     $user_email
                   ))
-                  ->addAttribute(new \LightSaml\Model\Assertion\Attribute('email', 'Tohid@outliant.com'))
+                  ->addAttribute(new \LightSaml\Model\Assertion\Attribute('email', 'tohid@email.id'))
                   ->addAttribute(new \LightSaml\Model\Assertion\Attribute('first_name', 'Tohid'))
-                  ->addAttribute(new \LightSaml\Model\Assertion\Attribute('last_name', 'Kovadiya'))
-                  ->addAttribute(new \LightSaml\Model\Assertion\Attribute('enterprise', 'MOGL'))
-                  ->addAttribute(new \LightSaml\Model\Assertion\Attribute('office', 'University 1'))
+                  ->addAttribute(new \LightSaml\Model\Assertion\Attribute('last_name', 'M K'))
+                  ->addAttribute(new \LightSaml\Model\Assertion\Attribute('enterprise', 'XYZ'))
+                  ->addAttribute(new \LightSaml\Model\Assertion\Attribute('office', 'University'))
                   ->addAttribute(new \LightSaml\Model\Assertion\Attribute('usertype', 'member'))
           )
           ->addItem(
